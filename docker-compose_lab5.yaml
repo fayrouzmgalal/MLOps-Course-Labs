@@ -1,0 +1,7 @@
+version: '3'
+services:
+  churn_api:
+    image: churn-prediction:fayrouz-917
+    container_name: churn_api
+    ports:
+      - "8000:8000"
